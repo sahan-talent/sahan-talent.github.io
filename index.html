@@ -7,6 +7,7 @@
 <meta name="description" content="Sahan Talent is a freelancing and job app for Somalia. Post jobs, find work, and get paid with Somali mobile money.">
 <meta property="og:title" content="Sahan Talent — Xirfad Kasta Hal Goob">
 <meta property="og:description" content="A freelancing and job app for Somali youth, with payments through local mobile money.">
+<link rel="icon" type="image/png" href="sahan-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
@@ -31,7 +32,7 @@ h1,h2,h3,p{margin:0}
 header{border-bottom:1px solid var(--line);background:#FFFFFF}
 nav{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;padding-top:16px;padding-bottom:16px}
 .logo{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--ink)}
-.logo-mark{width:42px;height:42px;border-radius:12px;background:var(--accent);display:flex;align-items:center;justify-content:center;color:#FFFFFF;font-weight:800;font-size:24px;font-style:italic}
+.logo-mark{width:42px;height:42px;display:block;object-fit:contain}
 .logo-text{display:flex;flex-direction:column;line-height:1}
 .logo-text b{font-size:20px;letter-spacing:3px}
 .logo-text span{font-size:10px;font-weight:600;letter-spacing:4px;color:var(--muted)}
@@ -145,7 +146,7 @@ details p{padding:0 24px 22px;font-size:16px;line-height:1.65;color:var(--body)}
 footer{border-top:1px solid var(--line)}
 .foot{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:16px;padding-top:36px;padding-bottom:36px;font-size:14px;color:var(--muted)}
 .foot-brand{display:flex;align-items:center;gap:12px}
-.foot-brand .logo-mark{width:34px;height:34px;border-radius:10px;font-size:19px}
+.foot-brand .logo-mark{width:34px;height:34px}
 .foot-links{display:flex;flex-wrap:wrap;gap:20px}
 .foot-links a{color:var(--muted)}
 </style>
@@ -155,7 +156,7 @@ footer{border-top:1px solid var(--line)}
 <header>
 <nav class="wrap" aria-label="Main">
   <a href="#top" class="logo">
-    <span class="logo-mark">S</span>
+    <img class="logo-mark" src="sahan-icon.png" alt="">
     <span class="logo-text"><b>SAHAN</b><span>TALENT</span></span>
   </a>
   <div class="nav-links">
@@ -329,7 +330,7 @@ footer{border-top:1px solid var(--line)}
 
 <footer>
   <div class="wrap foot">
-    <div class="foot-brand"><span class="logo-mark">S</span><span>Sahan Talent · Made in Somalia, for Somali youth.</span></div>
+    <div class="foot-brand"><img class="logo-mark" src="sahan-icon.png" alt=""><span>Sahan Talent · Made in Somalia, for Somali youth.</span></div>
     <div class="foot-links">
       <a href="#how">How it works</a>
       <a href="#faq">FAQ</a>
