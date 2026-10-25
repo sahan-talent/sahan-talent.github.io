@@ -3,7 +3,7 @@
 **Every skill, one place.** Sahan Talent is a freelancing and job app built for Somalia. Businesses and individuals post vacancies and jobs, young Somalis apply and get hired, and everyone gets paid with the mobile money they already use.
 
 🌐 **Website:** [sahan-talent.github.io](https://sahan-talent.github.io)
-📱 **App:** [Sahan on Google Play](https://play.google.com/store/apps/details?id=com.mycompany.sahan) (currently in testing)
+📱 **App:** [Sahan on Google Play](https://play.google.com/store/apps/details?id=com.mycompany.sahan) (now live)
 
 ## Why Sahan
 
